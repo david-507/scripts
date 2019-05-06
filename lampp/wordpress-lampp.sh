@@ -27,7 +27,7 @@ wget -q --show-progress https://sourceforge.net/projects/xampp/files/XAMPP%20Lin
 chmod u+x xampp-linux-x64-$LAMP_VERSION-0-installer.run
 
 echo "Instaling lamp"
-sudo ./xampp-linux-x64-$LAMP_VERSION-0-installer.run
+sudo ./xampp-linux-x64-$LAMP_VERSION-0-installer.run --mode unattended
 
 ## wordpress (latest version)
 wget -q --show-progress -c http://wordpress.org/latest.tar.gz
