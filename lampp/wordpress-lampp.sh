@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WP_PATH=/opt/lampp/htdocs
-LAMP_VERSION=7.3.4
+LAMP_VERSION=8.2.12
 
 ##################################################
 ## Script per la instal·lació de lamp + wordpress
@@ -23,7 +23,6 @@ fi
 
 echo "Downloading lamp $LAMP_VERSION This may take a while..."
 wget -q --show-progress https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/$LAMP_VERSION/xampp-linux-x64-$LAMP_VERSION-0-installer.run
-
 chmod u+x xampp-linux-x64-$LAMP_VERSION-0-installer.run
 
 echo "Instaling lamp"
