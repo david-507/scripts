@@ -19,7 +19,7 @@ if [ -d $WP_PATH/wordpress ]; then
     exit
 fi
 
-## XAMPP versio 7.3.4
+## XAMPP versio 7.4.2
 
 echo "Downloading lamp $LAMP_VERSION This may take a while..."
 wget -q --show-progress https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/$LAMP_VERSION/xampp-linux-x64-$LAMP_VERSION-0-installer.run
